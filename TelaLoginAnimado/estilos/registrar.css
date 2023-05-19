@@ -1,0 +1,176 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200');
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+
+body  {
+    background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
+  background-size:cover;
+        -webkit-animation: slidein 80s;
+        animation: slidein 80s;
+
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+
+        -webkit-animation-direction: alternate; 
+        animation-direction: alternate;              
+}
+
+@-webkit-keyframes slidein {
+from {background-position: top; background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+}
+
+@keyframes slidein {
+from {background-position: top;background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+
+}
+
+
+
+div.center
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #4b4bfa45;
+  border-radius: 3px;
+}
+/* div.center h1{
+  text-align:center;
+  color:white;
+  font-family: 'Source Code Pro', monospace;
+  text-transform:uppercase;
+} */
+
+section {
+  width: 350px;
+  height: 500px;
+  background-color: #6a81d374;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px  rgba(0, 0, 0, 0.289);
+  overflow: hidden;
+}
+
+div#login  {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  
+  
+  
+}
+
+ p.inicial  {
+
+  font-size: 1.3em;
+  width: 100px;
+
+}
+
+div#login > p.inicial > a {
+  text-decoration: none;
+  
+}
+
+div#login > p.inicial > a:hover {
+  text-decoration: underline;
+  font-size: 23px;
+  transition: 0.5s;
+}
+div#login >p.inicial > a#ilogin {
+    color: #282d8c7a;
+}
+
+div#login > p.inicial > a#iregistrar { 
+color: #282d8c;
+}
+
+div#login > p.inicial > a#ilogin:hover {
+  color: #282d8c;
+}
+
+
+
+
+div#form {
+  margin-top: 10px;
+}
+
+div#form > input {
+    display: block;
+    width: 80%;
+    background-color: #4b4bfa45;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 27px;
+    margin-bottom: 10px;
+    padding: 6px;
+     
+  }
+
+  div#form > input:focus-within {
+    background-color: rgba(120, 53, 236, 0.592);
+    border: none;
+  }
+
+  section > div#form > label {
+    display: block;
+    font-size: 1.1em;
+    color: #1e216b;
+    padding-bottom: 3px;
+    padding-left: 27px;
+
+  }
+
+  ::placeholder {
+    color: rgba(240, 248, 255, 0.593);
+  }
+
+  div#bot {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    
+  }
+
+  div#bot > input[type=button] {
+    width: 70%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1.1em;
+    background-color: #440cebe7;
+    color:  #aaaddf;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.382);
+    
+  }
+
+  div#bot > input[type=button]:hover {
+    background-color: #3b0dc7e7;
+    color: #c3c8ff;
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.585);
+  }
+  
