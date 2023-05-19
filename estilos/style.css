@@ -97,6 +97,10 @@ div#login > p.inicial > a:hover {
   transition: 0.5s;
 }
 
+div#login > p.inicial > a#ilogin {
+  color: #282d8c;
+}
+
 div#login > p.inicial > a#iregistrar { 
 color: #282d8c7a;
 }
