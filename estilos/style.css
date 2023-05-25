@@ -129,6 +129,7 @@ div#form > input {
 div#form > input:focus-within {
   background-color: rgba(120, 53, 236, 0.592);
   border: none;
+  outline: 0;
 }
 
 
