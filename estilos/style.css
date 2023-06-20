@@ -11,7 +11,7 @@
 
 body  {
     background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
-  background-size:cover;
+    background-size:cover;
         -webkit-animation: slidein 80s;
         animation: slidein 80s;
 
@@ -26,13 +26,26 @@ body  {
 }
 
 @-webkit-keyframes slidein {
-from {background-position: top; background-size:3000px; }
-to {background-position: -100px 0px;background-size:2750px;}
+  from {background-position: top; 
+      background-size:3000px; 
+    }
+
+  to {
+    background-position: -100px 0px;
+      background-size:2750px;
+    }
 }
 
 @keyframes slidein {
-from {background-position: top;background-size:3000px; }
-to {background-position: -100px 0px;background-size:2750px;}
+from {
+   background-position: top;
+   background-size:3000px; 
+}
+
+to {
+   background-position: -100px 0px;
+   background-size:2750px;
+}
 
 }
 
@@ -62,7 +75,7 @@ div.center
 section {
   width: 320px;
   height: 450px;
-  background-color: #6a81d374;
+  background-color: #6a81d39e;
   border-radius: 10px;
   box-shadow: 2px 2px 5px  rgba(0, 0, 0, 0.289);
   overflow: hidden;
@@ -81,7 +94,7 @@ div#login  {
 
  p.inicial  {
 
-  font-size: 1.3em;
+  font-size: 1.4em;
   width: 100px;
 
 }

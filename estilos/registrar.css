@@ -62,7 +62,7 @@ div.center
 section {
   width: 350px;
   height: 500px;
-  background-color: #6a81d374;
+  background-color: #6a81d39e;
   border-radius: 10px;
   box-shadow: 2px 2px 5px  rgba(0, 0, 0, 0.289);
   overflow: hidden;
@@ -81,7 +81,7 @@ div#login  {
 
  p.inicial  {
 
-  font-size: 1.3em;
+  font-size: 1.5em;
   width: 100px;
 
 }
