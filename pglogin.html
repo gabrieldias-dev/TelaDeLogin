@@ -18,16 +18,16 @@
             
                 <div id="login">
                     <p class="inicial"><a href="index.html" id="ilogin">Login</a></p>
-                    <p class="inicial" id="registrar"><a href="paginas/pag-registrar.html" id="iregistrar">Registrar</a></p>
-                </div>
+                        <p class="inicial" id="registrar"><a href="paginas/pag-registrar.html" id="iregistrar">Registrar</a></p>
+                    </div>
                 
-            <form action="#">
+            <form action="login.php">
                    
                    <div id="form">
                        <label for="iemail">E-mail:</label> <br> <input type="email" name="email" id="iemail" required>  <br>
                        <label for="isenha">Senha:</label> <br> <input type="password" name="senha" id="isenha" required>
                        <div id="bot">
-                           <input type="button" value="Entrar">
+                           <input type="button" value="Entrar" onclick="login()">
                        </div>
                        <p id="esqueceu"><a href="#">Esqueceu sua senha?</a></p>
                    
@@ -41,6 +41,8 @@
 
         
     </div>
+
+    <script src="scrip.js"></script>
        
 </body>
 </html>
