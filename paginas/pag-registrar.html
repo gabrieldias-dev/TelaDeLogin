@@ -23,19 +23,24 @@
 
             <div id="form">
 
-                <label for="inome">Nome Completo:</label><input type="text" name="nome" id="inome" required>
+                <label for="inome">Nome Completo:</label>
+                <input type="text" name="nome" class="form-cadastro" id="inome" required>
 
-                <label for="iemail">E-mail:</label><input type="email" name="email" id="iemail" required>
+                <label for="iemail">E-mail:</label>
+                <input type="email" name="email" class="form-cadastro" id="iemail" required>
 
-                <label for="inumero">Celular:</label><input type="tel" name="numero" id="inumero" placeholder="(dd) xxxxx-xxxx" required>
+                <label for="inumero">Celular:</label>
+                <input type="tel" name="numero" class="form-cadastro" id="inumero" placeholder="(dd) xxxxx-xxxx" required>
 
-                <label for="iapelido">Apelido:</label><input type="text" name="apelido" id="iapelido" placeholder="Como deseja se chamado?" required>
+                <label for="iapelido">Apelido:</label>
+                <input type="text" name="apelido" class="form-cadastro" id="iapelido" placeholder="Como deseja se chamado?" required>
 
-                <label for="isenha">Crie sua senha:</label><input type="password" name="senha" id="isenha" placeholder="Mínimo de 8 digitos" required>
+                <label for="isenha">Crie sua senha:</label>
+                <input type="password" name="senha" class="form-cadastro" id="isenha" placeholder="Mínimo de 8 digitos" required>
                 
 
-                 <div id="bot">
-                    <input type="button" value="Cadastrar">
+                 <div id="bot" onclick="cadastrar()">
+                    <input type="button" value="Cadastrar" >
                 </div>
                 
                 
@@ -47,6 +52,8 @@
 
         
     </div>
+
+    <script src="../scrip.js"></script>
     
 </body>
 </html>
