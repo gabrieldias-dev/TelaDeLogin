@@ -136,13 +136,14 @@ div#form > input {
   margin-left: 27px;
   margin-bottom: 10px;
   padding: 6px;
+  color: #ebbcff;
    
 }
 
-div#form > input:focus-within {
+div#form > input:focus{
   background-color: rgba(120, 53, 236, 0.592);
-  border: none;
   outline: 0;
+  color: #d6d7ec;
 }
 
 
@@ -167,13 +168,13 @@ div#bot > input[type=button] {
   border: none;
   border-radius: 5px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.382);
+  transition: 0.3s;
 }
 
 div#bot > input[type=button]:hover {
   background-color: #3b0dc7e7;
   color: #c3c8ff;
   transform: scale(1.1);
-  transition: 0.5s;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.585);
   
 }

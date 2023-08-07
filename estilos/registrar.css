@@ -163,6 +163,8 @@ div#form > input {
     border: none;
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.382);
+
+    transition: 0.3s;
     
   }
 
@@ -170,7 +172,6 @@ div#form > input {
     background-color: #3b0dc7e7;
     color: #c3c8ff;
     transform: scale(1.1);
-    transition: 0.5s;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.585);
   }
   
