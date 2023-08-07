@@ -11,9 +11,13 @@ function login() {
 
 function cadastrar() {
 
-    var $info = document.querySelectorAll('.form-cadastro').value
+    var $nome = document.querySelector('#inome').value
+    var $email = document.querySelector('#iemail').value
+    var $numero = document.querySelector('#inumero').value
+    var $apelido = document.querySelector('#iapelido').value
+    var $senha = document.querySelector('#isenha').value
 
-    if ( $info === '') {
+    if ( $nome === '' || $email === '' || $numero === '' || $apelido === '' || $senha === '') {
         alert('Necessario preencher todos os campos para seguir')
     }
 
