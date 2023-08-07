@@ -1,0 +1,112 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200');
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+
+body  {
+    background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
+    background-size:cover;
+        animation: slidein 80s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;              
+}
+
+
+@keyframes slidein {
+from {
+   background-position: top;
+   background-size:3000px; 
+}
+
+to {
+   background-position: -100px 0px;
+   background-size:2750px;
+}
+
+}
+
+
+div.center
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #4b4bfa45;
+  border-radius: 3px;
+}
+
+section {
+    width: 320px;
+    height: 200px;
+    background-color: #6a81d39e;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px  rgba(0, 0, 0, 0.289);
+    overflow: hidden;
+  }
+
+  input[type=email] {
+    display: block;
+    width: 90%;
+    margin: auto;
+    background-color: #4b4bfa45;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: #ebbcff;
+     
+  }
+
+  input:focus{
+    background-color: rgba(120, 53, 236, 0.592);
+    outline: 0;
+    color: #d6d7ec; 
+  }
+
+  p {
+    text-align: center;
+    padding: 0 10px 0 10px;
+    margin: 1em 0 1em 0;
+    font-size: 1.1em;
+    color: #282d8c;
+  }
+
+  ::placeholder {
+    color: #9ca1ff;
+
+  }
+
+  input[type=submit] {
+    display: block;
+    margin: auto;
+    margin-top: 1em;
+    width: 50%;
+    padding: 5px;
+    font-size: 0.9em;
+    color: #aaaddf;;
+    background-color: #440cebe7;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.382);
+    transition: 0.2s;
+  }
+
+ input[type=submit]:hover {
+    background-color: #3b0dc7e7;
+    color: #c3c8ff;
+    transform: scale(1.1);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.585);
+    
+  }
