@@ -52,12 +52,7 @@ div.center
   background: #4b4bfa45;
   border-radius: 3px;
 }
-/* div.center h1{
-  text-align:center;
-  color:white;
-  font-family: 'Source Code Pro', monospace;
-  text-transform:uppercase;
-} */
+
 
 section {
   width: 350px;
@@ -116,6 +111,7 @@ div#form {
 }
 
 div#form > input {
+  color: white;
     display: block;
     width: 80%;
     background-color: #4b4bfa45;
@@ -173,5 +169,9 @@ div#form > input {
     color: #c3c8ff;
     transform: scale(1.1);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.585);
+  }
+
+  input:focus {
+    color: white;
   }
   
